@@ -4,6 +4,13 @@
 
 学生：侯嘉栋（Jiadong Hou），学号：2311671。
 
+## 实验报告
+
+- [英文实验报告](report/实验报告.pdf)
+- [中文实验报告](report/实验报告_中文版.pdf)
+
+报告按 Task 1、Task 2、Task 3 组织，包含各项任务的原理、设置、结果与分析，以及扩展实验和图表。
+
 ## 课程任务
 
 所有方法共享同一训练、验证和测试划分，使用 Accuracy 与 Macro-F1 评价。
@@ -173,13 +180,7 @@ python scripts/verify_scaling.py
 | NYT Word2Vec + LR | 92.63 | 81.85 |
 | BERT-base-uncased | 89.63 | 62.97 |
 
-## 测试与结果核验
-
-单元测试使用临时生成的小规模数据，不需要下载数据或预训练权重：
-
-```bash
-python -m unittest discover -s tests -v
-```
+## 结果核验
 
 完成主实验后，从保存的逐文档预测重新计算指标，核对共享划分、验证集模型选择与 BERT 的完整训练记录：
 
@@ -210,6 +211,5 @@ python scripts/verify_scaling.py --results outputs/scaling
 | `scripts/run_scaling.py` | 多划分、四卡分工、训练预算与文本位置实验 |
 | `scripts/verify_results.py` | 主实验与固定划分扩展实验核验 |
 | `scripts/verify_scaling.py` | 大规模实验与两层波动汇总核验 |
-| `tests/` | 划分隔离、去重、池化、类别权重和 BERT 输入构造测试 |
 
 运行时资源和结果分别写入 `data/`、`outputs/`；并行运行日志写入 `logs/`。

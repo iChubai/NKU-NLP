@@ -6,3 +6,4 @@ data/
 outputs/
 logs/
 *.log
+tests/
