@@ -1,0 +1,11 @@
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+gensim==4.4.0
+torch==2.9.0
+transformers==4.57.3
+huggingface-hub>=0.34,<1
+pyarrow>=15
+requests>=2.32
+joblib>=1.4
