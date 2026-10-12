@@ -1,9 +1,25 @@
+# Local Python environments and caches
 .venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Downloaded resources and experiment outputs
 data/
 outputs/
 logs/
 *.log
+*.zip
+
+# Local-only development and submission artifacts
+.local/
 tests/
+homework1/作业一要求.pdf
+
+# Report-generation tools are not part of the submission
+homework1/scripts/build_*.py
+
+# Publish only the two final PDF reports
+homework1/report/*
+!homework1/report/实验报告.pdf
+!homework1/report/实验报告_中文版.pdf
