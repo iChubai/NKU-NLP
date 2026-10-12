@@ -9,7 +9,6 @@
 | 作业 | 目录 | 内容 |
 | --- | --- | --- |
 | Homework 1 | [homework1/](homework1/) | NYT 新闻文本分类：实验代码与中英文报告 |
-| Homework 2 | [homework2/](homework2/) | 预留目录，后续添加作业二 |
 
 ## Homework 1
 

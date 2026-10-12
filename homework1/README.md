@@ -1,6 +1,6 @@
 # Homework 1：NYT 新闻文本分类
 
-南开大学自然语言处理课程作业一。仓库总览见 [`../README.md`](../README.md)，作业二单独放在 `../homework2/`。
+南开大学自然语言处理课程作业一。仓库总览见 [`../README.md`](../README.md)。
 
 学生：侯嘉栋（Jiadong Hou），学号：2311671。
 
